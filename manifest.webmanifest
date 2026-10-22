@@ -1,0 +1,15 @@
+{
+  "name": "TJK FormLab Pro",
+  "short_name": "TJK FormLab",
+  "description": "Yerel at yarışı analiz ve veri kontrol uygulaması",
+  "lang": "tr-TR",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#080f1d",
+  "theme_color": "#080f1d",
+  "icons": [
+    {"src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}
+  ]
+}

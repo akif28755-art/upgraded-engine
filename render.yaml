@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: tjk-formlab
+    runtime: python
+    plan: free
+    buildCommand: "python -m compileall -q cloud_server.py"
+    startCommand: "python cloud_server.py"
+    healthCheckPath: /api/health
+    autoDeploy: true
